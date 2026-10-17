@@ -1,1 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+@font-face {
+    font-family: font1;
+    src: url(fonts/font1.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(fonts/font2.ttf);
+}
+
+
+body {
+    font-family: font1;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: space-between;
+    background-color: #BE6B6B;
+    border: solid 1px;
+}
+
+.site-header img {
+    width: 300px;
+}
+
+.site-header ol {
+    font-size: 40px;
+}
+
+ol ul a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color:#C29D9D ; 
+}
+
+.card1 {
+    border: solid 1px;
+
+}
+
+.card2 {
+    border: solid 1px;
+}
+
+
+.primary-button{
+    background-color: #BE6B6B;
+    color: rgb(241, 239, 239);
+    padding: 12px 24px;
+    border: solid px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto;
+    font-family: font1;
+
+}
+
+h1 {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #7AAC5C;
+    color: white;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #7AAC5C;
+    color: white;
+    font-size: 20px;
+}
